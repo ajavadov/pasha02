@@ -9,8 +9,8 @@ class App extends React.Component {
   //initializing the state
   state = {
     isLoading: true,
-    users: [],
-    posts: [],
+    users: null,
+    posts: null,
     };
   async componentDidMount() {
     //pulling the users data from the fake api
